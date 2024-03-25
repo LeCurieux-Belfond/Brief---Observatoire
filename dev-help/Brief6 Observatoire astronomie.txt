@@ -1,0 +1,61 @@
+Brief6 Observatoire astronomie:
+
+/***
+
+TRELLO GPT
+Analyse des besoins :
+
+Analysez les besoins spécifiques de l'observatoire astronomique en matière de réservation. Quels types d'événements sont proposés ? Quelles informations doivent être collectées lors de la réservation ? Quels sont les besoins des utilisateurs en termes de gestion de compte ?
+Conception de la base de données :
+
+Concevez la structure de la base de données en tenant compte des entités telles que les réservations, les utilisateurs, les événements, etc. Déterminez les relations entre ces entités et les attributs associés à chacune d'elles.
+Mise en place de l'environnement de développement :
+
+Configurez votre environnement de développement PHP avec les outils nécessaires tels que le serveur Apache, PHP, et MySQL. Assurez-vous d'avoir un système de gestion de base de données tel que phpMyAdmin pour faciliter la manipulation de la base de données.
+Création de la base de données :
+
+Créez la base de données en utilisant le langage SQL. Définissez les tables nécessaires pour stocker les informations sur les réservations, les utilisateurs, les événements, etc. Assurez-vous d'utiliser les bonnes conventions de nommage et de définir les contraintes appropriées pour maintenir l'intégrité des données.
+Développement du backend en PHP :
+
+Implémentez les fonctionnalités CRUD (Create, Read, Update, Delete) pour les réservations et les comptes utilisateurs en PHP. Utilisez PDO pour communiquer avec la base de données et exécuter des requêtes SQL sécurisées. Assurez-vous de valider et de filtrer les données entrantes pour prévenir les attaques par injection SQL.
+Intégration de Bootstrap :
+
+Utilisez les composants Bootstrap pour concevoir l'interface utilisateur de votre application. Cela vous permettra d'accélérer le processus de développement en utilisant des composants pré-stylisés et responsifs.
+Implémentation des fonctionnalités frontend :
+
+Développez les pages frontend nécessaires pour permettre aux utilisateurs de créer des réservations, de consulter leur compte, de modifier leurs informations personnelles, etc. Assurez-vous que l'interface utilisateur est conviviale et intuitive.
+Tests et débogage :
+
+Effectuez des tests approfondis pour vérifier le bon fonctionnement de votre application. Testez les fonctionnalités CRUD, la gestion des sessions utilisateur, la validation des formulaires, etc. Déboguez les éventuels problèmes et assurez-vous que l'application est stable et sécurisée.
+Déploiement :
+
+Une fois que votre application est prête, déployez-la sur un serveur en ligne. Assurez-vous de configurer correctement les permissions et les paramètres de sécurité pour protéger l'application contre les attaques potentielles.
+Maintenance et support :
+
+Assurez-vous de fournir un support continu aux utilisateurs de votre application. Effectuez des mises à jour régulières pour corriger les bugs et ajouter de nouvelles fonctionnalités en fonction des retours des utilisateurs et des besoins de l'observatoire astronomique.
+
+***/
+
+
+Note a moi:
+
+
+les visiteurs doivent pouvoir:  -créer un compte
+				-se connecter a leur compte via MDP et EMAIL
+				-modifier leus infos
+				-supprimer leur compte 
+				-s'inscrire et se desinscrire à un evenements
+
+
+les admins doivent pouvoir:  - ajouter evenements
+				-modifier evenements
+				-consulter evenements
+				-supprimer evenements 
+
+
+
+
+
+
+
+

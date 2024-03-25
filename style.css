@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.roof{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1D76A0;
+    height: 20%;
+    width: 100%;
+
+}
+
+
+.cercle {
+    width: 100px; 
+    border-radius: 50%; 
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    background-color: chocolate;
+}
+
+.cercle img {
+    width: 2px; 
+    height: 2px; 
+}  
+
