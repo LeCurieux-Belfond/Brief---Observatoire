@@ -2,10 +2,11 @@
 
 class HomeController
 {
+    use Response;
     public function index()
     {
-        echo ('<p>Home controller</p>');
-    }
+        $this->render("acceuilTemplate");   
+     }
 
     public function pageNotFound()
     {

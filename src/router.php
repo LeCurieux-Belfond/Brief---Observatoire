@@ -3,9 +3,9 @@
 require_once __DIR__ . "/Controller/loginController.php";
 
 $homeController = new HomeController();
-$espacePersonnalController = new PersonnalSpaceController();
+// $espacePersonnalController = new PersonnalSpaceController();
 $loginController = new LoginController();
-$inscriptionController = new InscriptionController();
+// $inscriptionController = new InscriptionController();
 
 $route = $_SERVER['REQUEST_URI'];
 
@@ -30,13 +30,13 @@ switch ($route) {
         }
         break;
 
-    case URL_INSCRIPTION:
-        $inscriptionController->index();
-        break;
+    // case URL_INSCRIPTION:
+    //     $inscriptionController->index();
+    //     break;
 
-    case URL_PERSONALSPACE:
-        $espacePersonnelController->index();
-        break;
+    // case URL_PERSONALSPACE:
+    //     $espacePersonnelController->index();
+    //     break;
 
     default:
         $homeController->pageNotFound();
