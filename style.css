@@ -28,3 +28,77 @@
     height: 2px; 
 }  
 
+.fond{
+    background-image: url("/asset/forest-5375005_1280.jpg");
+    background: fixed no-repeat;
+    height: 100%;
+    padding-bottom: 100px;
+   /* width: 100%; /*  Utilisation de pourcentage
+   /* max-width: 1200px; /* Largeur maximale en pixels 
+   /* margin: 0 auto; */
+}
+
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh; 
+
+}
+
+.one ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+h2{
+    padding: 50px;
+    padding-bottom: 35px;
+    color: aqua;
+}
+
+
+.pied{
+    display:flex;
+    
+    background-color: #1D76A0 ;
+    height: 60px;
+    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    align-items: center ;
+    justify-content: center;
+    margin-top: 0;
+
+}
+
+.roof{
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.pied p{
+    font-size: 12px;
+}
+
+.bas {
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+/* .bas p{
+
+} */
+
+a{
+    color: rgb(255, 127, 251);
+}
+
+label{
+    color: antiquewhite;
+}
+
+body{
+    height: 100vh;
+}

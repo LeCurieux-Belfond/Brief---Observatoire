@@ -1,58 +1,76 @@
+<?php  echo $_SERVER['REQUEST_URI'] ?> 
+
+
+
+
 <!DOCTYPE html>
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header class="top">
-        <div class="roof">
-            <div class="cercle">
-                <div><img src="asset/telescope_icon_138110.png" alt="telescope"></div>
-
-
-            </div>
-            <h1>Observatoire du Mont Curieux</h1>
+  <header class="top">
+    <div class="roof">
+      <div class="cercle">
+        <div><img src="/asset/telescope_icon_138110(1).png
+          " alt="telescope">
         </div>
-        <div>
-            <form method="POST" class="one">
-                <div id="form1">
-
-                    <ul>
-                        <li>
-                            <label for="name">Nom:</label>
-                            <input type="text" id="name" name="name" required />
-                        </li><br>
-                        <li>
-                            <label for="firstName">Prénom</label>
-                            <input type="text" id="firstName" name="firstName" required />
-                        </li>
-                        <li>
-                            <label for="mail">Adresse mail</label>
-                            <input type="email" id="mail" name="mail" required />
-                        </li>
 
 
-                        <li>
-                            <label for="motdepasse">Mot de passe :</label>
-                            <input type="password" id="motdepasse" name="motdepasse" required>
-                        </li>
-                        <li>
-                            <label for="motdepasse">Confirmez le mot de passe :</label>
-                            <input type="password" id="motdepasse" name="motdepasse" required>
-                        </li>
+      </div>
+     
+      <h1>Observatoire du Mont Curieux</h1>
+    </div>
+  </header>
+  <section class="fond">
+    <div>
+   
+      <h2>Inscrivez-vous!!</h2>
+      <form method="POST" class="one">
+        <div id="form1">
 
-                    </ul>
+          <ul>
+            <li>
+              <label for="name">Nom:</label><br>
+              <input type="text" id="name" name="name" required />
+            </li><br>
+            <li>
+              <label for="firstName">Prénom:</label><br>
+              <input type="text" id="firstName" name="firstName" required />
+            </li><br>
+            <li>
+              <label for="mail">Adresse mail:</label><br>
+              <input type="email" id="mail" name="mail" required />
+            </li><br>
 
-                    <button type="button" onclick="validateform1(event)">Suivant</button>
-                </div>
-                <!-- Formulaire 2 -->
 
-                <!--               
+            <li>
+              <label for="motdepasse">Mot de passe:</label><br>
+              <input type="password" id="motdepasse" name="motdepasse" required>
+            </li><br>
+            <li>
+              <label for="motdepasse2">Confirmez le mot de passe:</label><br>
+              <input type="password" id="motdepasse2" name="motdepasse2" required>
+            </li>
+
+          </ul><br>
+
+          <button type="button" onclick="validateform1(event)">Suivant</button>
+
+          <a href=".html">Next</a>
+
+
+        </div>
+
+  </section>
+  <!-- Formulaire 2 -->
+
+  <!--               
                 <div id="form2" class="hidden">
                   <ul>
                     <li>
@@ -116,8 +134,8 @@
               
                 </div> -->
 
-                <!-- Fin formulaire 3 -->
-                <!-- <div id="form3" class="-hidden">
+  <!-- Fin formulaire 3 -->
+  <!-- <div id="form3" class="-hidden">
                   <ul>
                     <li>
                       <label for="expression">Exprimez vous!</label><br>
@@ -128,12 +146,17 @@
                   <button type="button" onclick="previousform()" id="third">Précédent</button>
                   <button type="submit" onclick="validateform3(event)">Soumettre</button>
                 </div> -->
-            </form>
-        </div>
-        <div>
+  </form>
+  </div>
 
-        </div>
-    </header>
+  <footer class="pied">
+    <div class="bas">
+      <p> © Mentions légales - 2024 Tout droits réservés</p>
+    </div>
+  </footer>
+
+
+
 </body>
 
 </html>
